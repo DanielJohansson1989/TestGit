@@ -9,6 +9,6 @@ namespace TestGit
     internal class Flygplan
     {
         public string Name { get; set; }
-
+        public string Type { get; set; }
     }
 }
