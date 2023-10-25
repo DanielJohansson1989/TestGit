@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestGit
 {
-    internal class BIlar
+    internal class BIlar : Fordon
     {
-        //Test
+        public override void Go()
+        {
+            Console.WriteLine("Bilen brummar på ");
+        }
     }
 }
