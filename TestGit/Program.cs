@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BIlar bilar = new BIlar();
+            Flygplan flygplan = new Flygplan();
+
+            Fordon[] fordon = { flygplan, bilar };
+            
+            foreach (Fordon ford in fordon)
+            {
+                ford.Go();
+            }
         }
     }
 }
