@@ -8,5 +8,7 @@ namespace TestGit
 {
     internal class Flygplan
     {
+        public string Name { get; set; }
+
     }
 }
